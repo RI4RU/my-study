@@ -1,4 +1,5 @@
-# 제목을 적습니다.
+[obsidian help](https://publish.obsidian.md/help-ko/%ED%8E%B8%EC%A7%91+%EB%B0%8F+%EC%84%9C%EC%8B%9D+%EC%A7%80%EC%A0%95/%EA%B8%B0%EB%B3%B8+%EC%84%9C%EC%8B%9D+%EA%B5%AC%EB%AC%B8)
+# heading1
 ## heading2
 ### heading3
 #### heading4
@@ -21,3 +22,11 @@ public class MyCode {...}
 - [ ] 마크다운 링크 걸기 연습
 
 - [ ] 마크다운 도표 만들기 연습하기
+
+**볼드체1** __볼드체2__
+*이탤릭체1* _이탤릭체2_
+~~취소선~~
+==하이라이트==
+**볼드체와 _내부 이탤릭_ 체**
+***볼드이탤릭체1*** ___볼드이탤릭체2___
+
