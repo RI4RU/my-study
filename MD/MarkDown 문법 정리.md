@@ -1,4 +1,3 @@
-[obsidian help](https://publish.obsidian.md/help-ko/%ED%8E%B8%EC%A7%91+%EB%B0%8F+%EC%84%9C%EC%8B%9D+%EC%A7%80%EC%A0%95/%EA%B8%B0%EB%B3%B8+%EC%84%9C%EC%8B%9D+%EA%B5%AC%EB%AC%B8)
 # heading1
 ## heading2
 ### heading3
@@ -16,12 +15,13 @@
 > 인용글을 적을 때 사용
 
 ```java
+// 코드박스를 생성, 어떤 언어를 쓸지 명시 가능
 public class MyCode {...}
 ```
+	 코드 박스 아래에 들여쓰기 하면 `` 취급
 
-- [ ] 마크다운 링크 걸기 연습
-
-- [ ] 마크다운 도표 만들기 연습하기
+- [ ] 체크박스 생성
+- [x] 체크박스 안에 문자가 들어가 있으면 체크됨
 
 **볼드체1** __볼드체2__
 *이탤릭체1* _이탤릭체2_
@@ -30,3 +30,7 @@ public class MyCode {...}
 **볼드체와 _내부 이탤릭_ 체**
 ***볼드이탤릭체1*** ___볼드이탤릭체2___
 
+[obsidian help](https://publish.obsidian.md/help-ko/%ED%8E%B8%EC%A7%91+%EB%B0%8F+%EC%84%9C%EC%8B%9D+%EC%A7%80%EC%A0%95/%EA%B8%B0%EB%B3%B8+%EC%84%9C%EC%8B%9D+%EA%B5%AC%EB%AC%B8)
+
+- [x] 마크다운 링크 걸기 연습
+- [ ] 마크다운 도표 만들기 연습하기
