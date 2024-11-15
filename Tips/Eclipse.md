@@ -16,10 +16,13 @@
 
 #### STS4 간편기능
 __Alt+Shift+R__ : Rename
-	해당 이름을 사용하는 개체가 함께 변경됨
+- 같은 이름을 사용하는 멤버들이 함께 변경됨
 __Alt+Shift+S__ : Source
-	Generate Constructor using Fields : 생성자 생성
-	Generate Getter and Setter : getter 와 setter 생성
-	Override implement Methods : 부모클래스에서 오버라이드할 멤버의 헤더를 생성
-	Generate toString() : 원하는 멤버를 문자열로 만드는 toString() 메소드를 생성
-	Generate hashcode() and equals() : 동등함을 비교하는 equals() 메소드를 생성
+- Generate Constructor using Fields : 생성자 생성
+- Generate Getter and Setter : **getter** 와 **setter** 생성
+- Override implement Methods : 부모클래스에서 오버라이드할 멤버의 헤더를 생성
+- Generate toString() : 원하는 멤버를 문자열로 만드는 **toString()** 메소드를 생성
+- Generate hashcode() and equals() : 동등함을 비교하는 **equals()** 메소드와 해쉬코드를 반환하는 **hashcode()** 메소드를 생성
+
+###### // TODO
+- 주석라인에 다시 확인 가능한 체크포인트 생성
