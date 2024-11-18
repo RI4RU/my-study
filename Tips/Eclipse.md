@@ -20,7 +20,7 @@ __Alt+Shift+R__ : Rename
 __Alt+Shift+S__ : Source
 - Generate Constructor using Fields : 생성자 생성
 - Generate Getter and Setter : **getter** 와 **setter** 생성
-- Override implement Methods : 부모클래스에서 오버라이드할 멤버의 헤더를 생성
+- Override implement Methods : 부모클래스에서 오버라이드할 메소드를 생성
 - Generate toString() : 원하는 멤버를 문자열로 만드는 **toString()** 메소드를 생성
 - Generate hashcode() and equals() : 동등함을 비교하는 **equals()** 메소드와 해쉬코드를 반환하는 **hashcode()** 메소드를 생성
 

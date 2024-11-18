@@ -9,22 +9,19 @@ public class Calendar {
 	}
 	
 	public void printCalendar() {
-		LocalDate firstday = date.withDayOfMonth(1);
+		System.out.println(date.getYear() + " " + date.getMonth().toString());
+		System.out.println("SUN\tMON\tTUE\tWED\tTHU\tFRI\tSAT");
 		
-		System.out.println("날짜: " + date);
-		System.out.println("일\t월\t화\t수\t목\t금\t토");
-		for(int t = 0; t < firstday.getDayOfWeek().getValue(); t++) {
+		for(int t = 0; t < (date.withDayOfMonth(1).getDayOfWeek().getValue() % 7); t++) {
 			System.out.print("\t");
 		}
-		for (int i = 0; i < firstday.lengthOfMonth(); i = i+7) {
-			for(int j = 1; j <= 7; j++) {
-				
-				if ((i + j) > 0 && (i + j) <= firstday.lengthOfMonth()) {
-					System.out.print((i + j) + "\t");
+		for (int i = 1; i <= date.lengthOfMonth(); i++) {
+				if (i <= date.lengthOfMonth()) {
+					System.out.print(String.format("%02d", i) + "\t");
 				}
-				
-			}
-			System.out.println();
+				if (date.withDayOfMonth(i).getDayOfWeek().getValue() == 6) {
+					System.out.println();
+				}
 		}
 	}
 }
