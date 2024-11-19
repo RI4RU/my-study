@@ -23,20 +23,23 @@ public class Theater {
 			int input = scan.nextInt();
 			if (input <= 0) {
 				flag = false;
+				
 			} else if (input > seat.length) {
 				System.out.println("예약에 실패하였습니다. 유효하지 않은 좌석입니다.");
+				
 			} else if(seat[input-1]) {
 				seat[input-1] = false;
 				System.out.println(input + "번 자리가 예약되었습니다");
+				
 			} else {
 				System.out.println("예약에 실패하였습니다. 이미 예약된 좌석입니다.");
+				
 			}
 			if (Arrays.equals(seat, reserve)) {
 				flag = false;
 				System.out.println("모든 좌석이 예매되었습니다.");
 			}
 		}
-		
 		System.out.println("예매 프로그램이 종료되었습니다.");
 	}
 }
