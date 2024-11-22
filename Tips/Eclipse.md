@@ -15,8 +15,12 @@
 **Ctrl + space** : 어휘의 자동완성(Content Assistance)
 
 #### STS4 간편기능
+**Alt+Shift+T** : Refactor
+- extract... : 코드의 일부분을 필드 메소드 인터페이스 클래스 등으로 묶어서 자동생성
+
 __Alt+Shift+R__ : Rename
 - 같은 이름을 사용하는 멤버들이 함께 변경됨
+
 __Alt+Shift+S__ : Source
 - Generate Constructor using Fields : 생성자 생성
 - Generate Getter and Setter : **getter** 와 **setter** 생성
@@ -24,8 +28,28 @@ __Alt+Shift+S__ : Source
 - Generate toString() : 원하는 멤버를 문자열로 만드는 **toString()** 메소드를 생성
 - Generate hashcode() and equals() : 동등함을 비교하는 **equals()** 메소드와 해쉬코드를 반환하는 **hashcode()** 메소드를 생성
 
-###### // TODO
-- 주석라인에 다시 확인 가능한 체크포인트 생성
+### javadoc 주석
+```java
+/**
+* 이 클래스는 계산기 기능을 제공합니다.
+* 주어진 두 숫자에 대해 덧셈과 뺄셈을 수행합니다.
+*/
+class Calculator {
+/**
+* 두 숫자의 합을 반환합니다.
+*
+* @param a 첫 번째 숫자
+* @param b 두 번째 숫자
+* @return 두 숫자의 합
+*/
+	public int add(int a, int b) {
+		return a + b;
+		}
+}
+
+// TODO
+// 주석라인에 나중에 다시 확인할 수 있는 체크포인트 생성
+```
 
 #### STS4 플러그인 설치
 1. Help - Install New Software 에 아래 주소 입력
@@ -42,4 +66,14 @@ __Alt+Shift+S__ : Source
 - 클래스 다이어그램 생성 
 	new - other - AmaterasUML - Class Diagram
 
+
+###### 사용자의 접근성을 위해 실행파일과 패키지를 합치는 방법
+0. 이클립스에서 export로 jar파일 생성
+	1. 생성할 때 main 메소드 위치를 잡아줘야 한다
+1. name.bat 생성
+2. 편집기로 java -jar name.jar 입력
+3. pause 추가  
+    여기까지를 **packaging** 이라고 함
+4. readme.txt (사용설명서)  
+    이렇게 완성된 프로그램을 사용자에게 배포하는것을 **release** 라고 한다
 
