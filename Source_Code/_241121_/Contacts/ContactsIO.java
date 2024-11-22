@@ -11,26 +11,45 @@ public class ContactsIO {
 		boolean flag = true;
 		for (int i = 0; (i < CONTACTS.length) && flag; i++) {
 			CONTACTS[i] = inputContacts();
+			if(CONTACTS[i].getName() == null) {
+				flag = false;
+			}
 		}
 		System.out.println("지인들의 수는 " + Contacts.getCount() + "명입니다.");
 	}
 	
-	public Contacts inputContacts() {
-		System.out.print("이름과 전화번호, 이메일을 입력하시오: ");
+	private Contacts inputContacts() {
+		System.out.println("이름과 전화번호, 이메일을 입력하시오: ");
 		String name = SCAN.nextLine();
+		if (name.equals("-1")) {
+			Contacts contact = new Contacts();
+			return contact;
+		}
 		String tel = SCAN.nextLine();
 		String email = SCAN.nextLine();
-		
 		Contacts contact = new Contacts(name, tel, email);
-//		System.out.println(contact);
+
 		return contact;
 	}
 	
 	public void searchContact() {
 		System.out.print("검색할 이름을 입력하시오: ");
 		String name = SCAN.nextLine();
-		
-		
+		boolean flag = true;
+		int count = 0;
+		for (int i = 0; (i < CONTACTS.length) && flag; i++) {
+			if (name.equals(CONTACTS[i].getName())) {
+				System.out.println(CONTACTS[i]);
+				count++;
+			}
+			if (CONTACTS[i].getName() == null) {
+				flag = false;
+			}
+		}
+		if (count == 0) {
+			System.out.println("일치하는 이름이 없습니다.");
+		} else {
+			System.out.println(count + "명이 검색되었습니다");
+		}
 	}
-
 }

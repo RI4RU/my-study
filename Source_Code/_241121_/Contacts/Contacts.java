@@ -6,6 +6,10 @@ public class Contacts {
 	private String tel;
 	private String email;
 	
+	public Contacts() {
+		
+	}
+	
 	public Contacts(String name, String tel, String email) {
 		super();
 		this.name = name;
@@ -16,11 +20,23 @@ public class Contacts {
 
 	@Override
 	public String toString() {
-		return "Contacts [name=" + name + ", tel=" + tel + ", email=" + email + "]";
+		return name + "의 전화번호: " + tel + " 이메일: " + email;
 	}
 
 	public static int getCount() {
 		return count;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getTel() {
+		return tel;
+	}
+
+	public String getEmail() {
+		return email;
 	}
 	
 }

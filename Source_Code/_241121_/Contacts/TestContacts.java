@@ -16,5 +16,6 @@ public class TestContacts {
 		ContactsIO contactIO = new ContactsIO();
 		
 		contactIO.inputAllContacts();
+		contactIO.searchContact();
 	}
 }
