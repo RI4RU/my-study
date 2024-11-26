@@ -12,22 +12,27 @@
 **Ctrl + O** : Outline 창 열기  
 **Ctrl + Q** : 마지막 편집위치로 가기
 **Ctrl + S** : 저장 및 컴파일  
-**Ctrl + space** : 어휘의 자동완성(Content Assistance)
+**Ctrl + space** : 어휘의 자동완성(Content Assistance) **Ctrl + 1** : Quick Fix
 
-#### STS4 간편기능
-**Alt+Shift+T** : Refactor
-- extract... : 코드의 일부분을 필드 메소드 인터페이스 클래스 등으로 묶어서 자동생성
+---
+### STS4 간편기능
+- **Alt+Shift+T** : Refactor
+	- extract... : 코드의 일부분을 필드 메소드 인터페이스 클래스 등으로 묶어서 자동생성
 
-__Alt+Shift+R__ : Rename
-- 같은 이름을 사용하는 멤버들이 함께 변경됨
+- __Alt+Shift+R__ : Rename
+	- 같은 이름을 사용하는 멤버들이 함께 변경된다
 
-__Alt+Shift+S__ : Source
-- Generate Constructor using Fields : 생성자 생성
-- Generate Getter and Setter : **getter** 와 **setter** 생성
-- Override implement Methods : 부모클래스에서 오버라이드할 메소드를 생성
-- Generate toString() : 원하는 멤버를 문자열로 만드는 **toString()** 메소드를 생성
-- Generate hashcode() and equals() : 동등함을 비교하는 **equals()** 메소드와 해쉬코드를 반환하는 **hashcode()** 메소드를 생성
+- **Ctrl+Shift+O** : Organize import
+	- import가 필요한 클래스를 한번에 import 하는 것을 도와준다
 
+- __Alt+Shift+S__ : Source
+	- Generate Constructor using Fields : 생성자 생성
+	- Generate Getter and Setter : **getter** 와 **setter** 생성
+	- Override implement Methods : 부모클래스에서 오버라이드할 메소드를 생성
+	- Generate toString() : 원하는 멤버를 문자열로 만드는 **toString()** 메소드를 생성
+	- Generate hashcode() and equals() : 동등함을 비교하는 **equals()** 메소드와 해쉬코드를 반환하는 **hashcode()** 메소드를 생성
+
+---
 ### javadoc 주석
 ```java
 /**
@@ -51,6 +56,7 @@ class Calculator {
 // 주석라인에 나중에 다시 확인할 수 있는 체크포인트 생성
 ```
 
+---
 #### STS4 플러그인 설치
 1. Help - Install New Software 에 아래 주소 입력
 	https://takezoe.github.io/amateras-update-site/
