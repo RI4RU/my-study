@@ -17,7 +17,10 @@
 ---
 ### STS4 간편기능
 - **Alt+Shift+T** : Refactor
-	- extract... : 코드의 일부분을 필드 메소드 인터페이스 클래스 등으로 묶어서 자동생성
+	- **Alt+Shift+M** : Extract Methods
+		- 기존의 코드에서 일정 부분을 새로운 메서드로 추출하여, 그 메서드를 원래 코드에서 호출하도록 만드는 리팩토링 기법
+	- **Alt+Shift+L** : Extract Local Variable
+		- 메소드 내에서 동일한 값이나 표현식을 여러 번 사용하는 경우, 그 값을 한 번 계산하고 이를 **지역 변수**로 저장하여 반복되는 코드 대신 변수명을 사용하도록 만드는 리팩토링 기법
 
 - __Alt+Shift+R__ : Rename
 	- 같은 이름을 사용하는 멤버들이 함께 변경된다
@@ -28,9 +31,11 @@
 - __Alt+Shift+S__ : Source
 	- Generate Constructor using Fields : 생성자 생성
 	- Generate Getter and Setter : **getter** 와 **setter** 생성
+	- Generate Deligate Methods : 
 	- Override implement Methods : 부모클래스에서 오버라이드할 메소드를 생성
 	- Generate toString() : 원하는 멤버를 문자열로 만드는 **toString()** 메소드를 생성
 	- Generate hashcode() and equals() : 동등함을 비교하는 **equals()** 메소드와 해쉬코드를 반환하는 **hashcode()** 메소드를 생성
+	
 
 ---
 ### javadoc 주석
