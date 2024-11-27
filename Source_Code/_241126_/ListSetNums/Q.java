@@ -1,7 +1,7 @@
 package _241126_practice;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 import java.util.TreeSet;
@@ -22,14 +22,20 @@ public class Q {
 		return list;
 	}
 	
-	public void input() {
+	
+	public void inputNums() {
+		System.out.println("정수를 입력 : ");
 		boolean flag = true;
 		while (flag) {
-			int input = SCANNER.nextInt();
-			SCANNER.nextLine();
-			if (input >= 0) {
-				list.add(input);
-			} else {
+			try {
+				int input = SCANNER.nextInt();
+				SCANNER.nextLine();
+				if (input >= 0) {
+					list.add(input);
+				} else {
+					flag = false;
+				}
+			} catch (InputMismatchException e) {
 				flag = false;
 			}
 		}

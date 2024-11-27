@@ -5,7 +5,7 @@ public class TestQ {
 	public static void main(String[] args) {
 		Q q = new Q();
 		
-		q.input();
+		q.inputNums();
 		System.out.println(q.getList());
 		q.printNums();
 	}
