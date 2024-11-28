@@ -14,15 +14,8 @@ package _241127_practice;
  */
 public class Q1 {
 	public static void main(String[] args) {
-		Academy ac = new Academy();
-		Student stu1 = new Student("s1");
-		Subject sub1 = new Subject("영어A");
-		Subject sub2 = new Subject("영어B");
-		Subject sub3 = new Subject("수학A");
+		Academy aca = new Academy();
 		
-		stu1.addSubject(sub1);
-		stu1.addSubject(sub3);
-		System.out.println(stu1);
 		
 	}
 }

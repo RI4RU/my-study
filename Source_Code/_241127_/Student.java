@@ -1,34 +1,32 @@
 package _241127_practice;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Student {
-	private String name;
-	private List<Subject> subject;
-	
-	public Student(String name) {
-		super();
-		this.name = name;
-		this.subject = new ArrayList<>();
-	}
-	
-	public String getName() {
-		return name;
-	}
-	
-	public List<Subject> getSubject() {
-		return subject;
-	}
-	
-	public Student addSubject(Subject name) {
-		subject.add(name);
-		return this;
-	}
+    private String studentName;
 
-	@Override
-	public String toString() {
-		return "Student [name=" + name + ", subject=" + subject + "]";
-	}
-	
+    public Student(String studentName) {
+        this.studentName = studentName;
+    }
+
+    public String getName() {
+        return studentName;
+    }
+
+    @Override
+    public String toString() {
+        return "학생 이름: " + studentName;
+    }
+
+    @Override
+    public int hashCode() {
+    	return studentName.hashCode();
+    }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Student) {
+            return this.studentName.equals(((Student) obj).getName());
+        }
+        return false;
+    }
+
 }

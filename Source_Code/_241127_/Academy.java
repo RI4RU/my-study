@@ -7,40 +7,45 @@ import java.util.Map;
 
 public class Academy {
 	private List<Student> studentList;
-	private List<Subject> subjectList;
+	private Map<String, Course> courseMap;
 	
 	public Academy() {
-		this.studentList = new ArrayList<>();
-		this.subjectList = new ArrayList<>();
+		studentList = new ArrayList<>();
+		courseMap = new HashMap<>();
+		
+		courseMap.put("영어A", new Course("영어A"));
+		courseMap.put("영어B", new Course("영어B"));
+		courseMap.put("수학A", new Course("수학A"));
 	}
-	
-	public Academy addStudent(Student name) {
-		studentList.add(name);
-		return this;
-	}
-	
-	public Academy addSubject(Subject name) {
-		subjectList.add(name);
-		return this;
-	}
-	
-	public List<Student> getAcademyStudentList() {
+
+	public List<Student> getStudentList() {
 		return studentList;
 	}
 
-	public List<Subject> getAcademySubjectList() {
-		return subjectList;
+	public Map<String, Course> getCourseMap() {
+		return courseMap;
 	}
-
-//	public Map<String, List<String>> getStudentMap() {
-//		return studentMap;
-//	}
-//
-//	public Map<String, List<String>> getSubjectMap() {
-//		return subjectMap;
-//	}
-//	
 	
+	public void printAcademyStudentList() {
+		System.out.println("---학원의 학생 목록---");
+		for (Student l : studentList) {
+			System.out.println(l);
+		}
+	}
 	
+	public void printCourseStudentList(String courseName) {
+		System.out.println("---" + courseName + "의 학생 목록---");
+		if (courseMap.get(courseName) == null) {
+			System.out.println("해당 과목을 수강하는 학생이 없습니다.");
+		} else {
+			for (Student s : courseMap.get(courseName).getStudents()) {
+				System.out.println(s);
+			}
+		}
+	}
 	
+	public void printCourseForStudent(String studentName) {
+		System.out.println("---" + studentName + " 이 수강중인 과목---");
+		
+	}
 }
