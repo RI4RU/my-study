@@ -12,22 +12,22 @@
 **Ctrl + O** : Outline 창 열기  
 **Ctrl + Q** : 마지막 편집위치로 가기
 **Ctrl + S** : 저장 및 컴파일  
-**Ctrl + space** : 어휘의 자동완성(Content Assistance) **Ctrl + 1** : Quick Fix
+**Ctrl + space** : 어휘의 자동완성(Content Assistance)
+**Ctrl + 1** : Quick Fix
 
 ---
 ### STS4 간편기능
 - **Alt+Shift+T** : Refactor
+	- - __Alt+Shift+R__ : Rename
+		- 같은 이름을 사용하는 멤버들이 함께 변경된다
 	- **Alt+Shift+M** : Extract Methods
 		- 기존의 코드에서 일정 부분을 새로운 메서드로 추출하여, 그 메서드를 원래 코드에서 호출하도록 만드는 리팩토링 기법
 	- **Alt+Shift+L** : Extract Local Variable
 		- 메소드 내에서 동일한 값이나 표현식을 여러 번 사용하는 경우, 그 값을 한 번 계산하고 이를 **지역 변수**로 저장하여 반복되는 코드 대신 변수명을 사용하도록 만드는 리팩토링 기법
-
-- __Alt+Shift+R__ : Rename
-	- 같은 이름을 사용하는 멤버들이 함께 변경된다
-
+- 
 - **Ctrl+Shift+O** : Organize import
 	- import가 필요한 클래스를 한번에 import 하는 것을 도와준다
-
+- 
 - __Alt+Shift+S__ : Source
 	- Generate Constructor using Fields : 생성자 생성
 	- Generate Getter and Setter : **getter** 와 **setter** 생성
@@ -35,7 +35,11 @@
 	- Override implement Methods : 부모클래스에서 오버라이드할 메소드를 생성
 	- Generate toString() : 원하는 멤버를 문자열로 만드는 **toString()** 메소드를 생성
 	- Generate hashcode() and equals() : 동등함을 비교하는 **equals()** 메소드와 해쉬코드를 반환하는 **hashcode()** 메소드를 생성
-	
+- 
+- **Window - Editor**
+	- **Clone** : 현재 열려있는 프로그램을 한번 더 연다
+	- **Ctrl+{** : Toggle Split Editor (Vertical)
+		- 현재 열려있는 프로그램을 수직으로 분리해서 볼수 있게 해준다
 
 ---
 ### javadoc 주석
@@ -63,19 +67,23 @@ class Calculator {
 
 ---
 #### STS4 플러그인 설치
-1. Help - Install New Software 에 아래 주소 입력
-	https://takezoe.github.io/amateras-update-site/
-	
-	모두 체크하고 넘기기
-
-2. STS4 폴더의 ini 파일 맨 아래에
-	--add-opens=java.desktop/java.beans=ALL-UNNAMED
-	 
-	 추가하기
-
-#### Amateras U.M.L
+- **Amateras U.M.L**
+	-  Help - Install New Software 에 아래 주소 입력
+		https://takezoe.github.io/amateras-update-site/
+		모두 체크하고 넘기기
+	-  STS4 폴더의 ini 파일 맨 아래에
+		--add-opens=java.desktop/java.beans=ALL-UNNAMED
+		추가하기
+- **window builder**
+	- Help - Eclipse Marketplace 에서 window builder 검색
+	- 제일 위에거 다운받기
+##### Amateras U.M.L
 - 클래스 다이어그램 생성 
-	new - other - AmaterasUML - Class Diagram
+	- new - other - AmaterasUML - Class Diagram
+
+##### window builder
+- 윈도우 빌더 생성
+	- new - other - window builder - JFrame
 
 
 ###### 사용자의 접근성을 위해 실행파일과 패키지를 합치는 방법
