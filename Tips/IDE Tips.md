@@ -100,3 +100,4 @@ class Calculator {
 
 #### VS code 확장 프로그램
 - live server
+- Prettier - Code formatter
