@@ -9,6 +9,7 @@
 ---
 - [java.lang.object](DailyPatch/DailyPatch_24_11/24_11_15.md)
 - [interface](DailyPatch/DailyPatch_24_11/24_11_18.md)
+- [Array](DailyPatch/DailyPatch_24_11/24_11_19.md)
 - 
 
 
