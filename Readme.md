@@ -16,4 +16,5 @@
 - [Spring Framework, SpringBoot](DailyPatch/DailyPatch_25_01/25_01_22.md)
   [h2 DataBase](DailyPatch/DailyPatch_25_01/25_01_23.md)
   [SpringBoot/예외, 응답, 세션, 유효성](DailyPatch/DailyPatch_25_01/25_01_24.md)
+  [SpringBoot/@RestController](DailyPatch/DailyPatch_25_01/25_01_31.md)
 - 
