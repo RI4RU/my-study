@@ -10,6 +10,10 @@
 - [java.lang.object](DailyPatch/DailyPatch_24_11/24_11_15.md)
 - [interface](DailyPatch/DailyPatch_24_11/24_11_18.md)
 - [Array](DailyPatch/DailyPatch_24_11/24_11_19.md)
+- [Exception](DailyPatch/DailyPatch_24_11/24_11_22.md)
+- [Collection/List](DailyPatch/DailyPatch_24_11/24_11_25.md)
+  [Collection/Set](DailyPatch/DailyPatch_24_11/24_11_26.md)
+  [Collection/Map](DailyPatch/DailyPatch_24_11/24_11_27.md)
 - 
 
 
@@ -17,4 +21,7 @@
   [h2 DataBase](DailyPatch/DailyPatch_25_01/25_01_23.md)
   [SpringBoot/예외, 응답, 세션, 유효성](DailyPatch/DailyPatch_25_01/25_01_24.md)
   [SpringBoot/@RestController](DailyPatch/DailyPatch_25_01/25_01_31.md)
+  [SpringBoot/AOP](DailyPatch/DailyPatch_25_02/25_02_03.md)
+  [SpringMockMvcTest](DailyPatch/DailyPatch_25_02/25_02_03.md)
 - 
+
