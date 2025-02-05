@@ -1,8 +1,7 @@
----
+***
+# [K-디지털사업] 자바&Springboot 크로스 플랫폼 (풀스택)융합 응용SW개발자 양성과정
+***
 
-**[K-디지털사업] 자바&Springboot 크로스 플랫폼 (풀스택)융합 응용SW개발자 양성과정**
-
----
 - [java.lang.object](DailyPatch/DailyPatch_24_11/24_11_15.md)
 - [interface](DailyPatch/DailyPatch_24_11/24_11_18.md)
 - [Array](DailyPatch/DailyPatch_24_11/24_11_19.md)
