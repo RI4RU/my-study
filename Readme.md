@@ -23,7 +23,8 @@
 	[SpringBoot/@RestController](DailyPatch/DailyPatch_25_01/25_01_31.md)   
 	[SpringBoot/AOP](DailyPatch/DailyPatch_25_02/25_02_03.md)   
 	[SpringMockMvcTest](DailyPatch/DailyPatch_25_02/25_02_03.md)   
-- [JavaScript](DailyPatch/DailyPatch_25_02/25_02_04.md)
+- [JavaScript1](DailyPatch/DailyPatch_25_02/25_02_04.md)   
+	[JavaScript2](DailyPatch/DailyPatch_25_02/25_02_05.md)
 
 - 
 
