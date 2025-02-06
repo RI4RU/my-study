@@ -14,7 +14,18 @@
 	[GUI/swing2](DailyPatch/DailyPatch_24_12/24_12_22.md)   
 	[GUI/swing3](DailyPatch/DailyPatch_24_12/24_12_03.md)   
 	[GUI/swing4](DailyPatch/DailyPatch_24_12/24_12_04.md)   
-- [MySQL](DailyPatch/DailyPatch_24_12/24_12_05.md)
+- [MySQL](DailyPatch/DailyPatch_24_12/24_12_05.md)   
+	[MySQL/java](DailyPatch/DailyPatch_24_12/24_12_09.md)
+- [HTML](DailyPatch/DailyPatch_24_12/24_12_13.md)   
+	[CSS](DailyPatch/DailyPatch_24_12/24_12_16.md)
+- [JSP](DailyPatch/DailyPatch_24_12/24_12_18.md)   
+	[session](DailyPatch/DailyPatch_24_12/24_12_20.md)   
+	[jstl/taglib](DailyPatch/DailyPatch_24_12/24_12_23.md)   
+	[servlet](DailyPatch/DailyPatch_24_12/24_12_24.md)   
+
+
+
+
 
 
 - [Spring Framework, SpringBoot](DailyPatch/DailyPatch_25_01/25_01_22.md)   
