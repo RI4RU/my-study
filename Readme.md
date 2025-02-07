@@ -22,11 +22,9 @@
 	[session](DailyPatch/DailyPatch_24_12/24_12_20.md)   
 	[jstl/taglib](DailyPatch/DailyPatch_24_12/24_12_23.md)   
 	[servlet](DailyPatch/DailyPatch_24_12/24_12_24.md)   
-
-
-
-
-
+	[Mybatis](DailyPatch/DailyPatch_24_12/24_12_27.md)   
+	[RestAPI](DailyPatch/DailyPatch_24_12/24_12_31_REST%20API)   
+- 
 
 - [Spring Framework, SpringBoot](DailyPatch/DailyPatch_25_01/25_01_22.md)   
 	[h2 DataBase](DailyPatch/DailyPatch_25_01/25_01_23.md)   
