@@ -1,0 +1,30 @@
+www.anabada.co.kr
+
+
+kr.co.anabada.main
+
+
+kr.co.anabada.mypage
+>Entity
+- Bid
+- Buy
+- Sell
+- Favor
+
+
+kr.co.anabada.user
+>Entity
+- User
+
+
+kr.co.anabada.item
+>Entity
+- Item
+- Image
+- QnA
+- Category
+
+
+kr.co.anabada.util
+
+
