@@ -37,9 +37,11 @@
 - [Generic, Lambda](DailyPatch/DailyPatch_25_02/25_02_21.md)   
 - [Thread](DailyPatch/DailyPatch_25_02/25_02_24.md)   
 - [Socket](DailyPatch/DailyPatch_25_02/25_02_25.md)   
-- [SSE, HttpClient](DailyPatch/DailtPatch_25_02/25_02_26)    
-- [Filter](DailyPatch/DailyPatch_25_02/25_02_27)   
-- [OncePerRequestFilter](DailyPatch/DailyPatch_25_02/25_02_28)   
-- [SpringBoot Security](DailyPatch/DailyPatch_25_03/25_03_04)   
+- [SSE, HttpClient](DailyPatch/DailtPatch_25_02/25_02_26.md)    
+- [Filter](DailyPatch/DailyPatch_25_02/25_02_27.md)   
+- [OncePerRequestFilter](DailyPatch/DailyPatch_25_02/25_02_28.md)   
+- [SpringBoot Security](DailyPatch/DailyPatch_25_03/25_03_04.md)   
 	- JWT, hs256, OAuth 2.0, JPA   
-- 
+- [Springframework/Repository](DailyPatch/DailyPatch_25_03/25_03_05.md)   
+	- Entity, Repository   
+-  
