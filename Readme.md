@@ -44,4 +44,4 @@
 	- JWT, hs256, OAuth 2.0, JPA   
 - [Springframework/Repository](DailyPatch/DailyPatch_25_03/25_03_05.md)   
 	- Entity, Repository   
--  
+- 
