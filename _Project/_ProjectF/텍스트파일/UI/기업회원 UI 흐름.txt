@@ -1,0 +1,43 @@
+RequestMapping -> /brand
+
+/header
+로고 - /main
+로그인 - /login
+개인/기업 전환 - /login
+회원가입 - /join
+검색창 - /itemlist
+카테고리 - /itemlist
+
+/main
+인기상품 - /itemlist
+입찰진행중인상품목록 - /itemdetail
+
+/mypage
+상품등록 - /itemupdate  
+판매상품목록 - /selllist
+구매상품목록 - / buylist
+질문목록 - /questionlist
+답변목록 - /answerlist
+신고내역 - /declarationlist
+
+/itemlist
+상품상세페이지 - /itemlist
+
+/itemdetail
+채팅문의 - /chat
+입찰기록 - /bidlist
+문의목록 - /qualist
+
+/footer
+
+/bottombar
+홈 
+마이페이지 
+찜목록페이지 
+카테고리 
+
+
+
+
+
+

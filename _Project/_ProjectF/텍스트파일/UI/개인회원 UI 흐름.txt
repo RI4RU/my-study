@@ -1,0 +1,46 @@
+RequestMapping -> /user
+
+/header
+로고 - /main
+로그인 - /login
+개인/기업 전환 - /login
+회원가입 - /join
+검색창 - /itemlist
+
+/main
+오늘의 날씨, 날씨에 맞는 코디 추천
+진행중인프로모션 - /promotionlist
+인기상품 - itemlist
+
+/mypage
+상품등록 - /itemupdate 
+판매상품목록 - /selllist
+구매상품목록 - /buylist
+질문목록 - /questionlist
+답변목록 - /answerlist
+신고내역 - /declarationlist
+
+상품목록
+/itemlist
+	상품상세페이지 - /itemdetail
+		프로필 - /profile
+		판매자 위치 ( 시, 구, 동 까지만)
+		채팅문의 - /chat
+		입찰기록 - /bidlist
+		문의목록 - /qualist
+		신고하기 - /declarationdetail
+
+/footer
+회사정보 - 무신사 뺏기기 >_0 ( https://www.musinsa.com )
+인스타그램로고 - #
+
+/bottombar
+홈 
+마이페이지 
+찜목록페이지 favoritepage
+카테고리 fategory
+
+
+
+
+

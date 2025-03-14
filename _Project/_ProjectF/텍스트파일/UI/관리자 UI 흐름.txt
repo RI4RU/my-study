@@ -1,0 +1,65 @@
+RequestMapping -> /admin
+
+
+/header
+로고 - /main
+로그인 - /login
+회원가입 - /join
+검색창 - /user/profile or /brand/profile
+
+/main
+개인회원조회 - /userlist
+기업회원조회 - /brandlist
+마이페이지 - /mypage
+통계 ( 월 매출, 주 매출, 일 매출 ( 상시변동 ) / 현금전환 대기 금액, 코인전환 대기 금액, 아나바다 현금 보유금액, 전체 유저 코인 보유금액 ) - /finance
+
+/mypage
+마스터계정만 볼 수 있는 관리자목록(권한설정) - /authority
+질문목록 - /question
+답변목록 - /answer
+신고내역 - /declarationlist
+코인관리 - /finance
+고객센터관리 - /cs
+정품검수 - /inspection
+
+/inspection
+요청서디테일 - /inspectiondetail
+
+/cs
+1:1문의목록 - /cslist
+문의상세페이지 - /csdetail
+공지사항목록 - /noticelist
+공지사항 등록 페이지 - /notice
+
+/finance
+현찰전환 요청내역 - /cashlist
+코인전환 요청내역 - /coinlist
+
+/cashlist
+현찰전환 상세페이지 - /cashdetail
+
+/coinlist
+코인전환 상세페이지 - /coindetail
+
+/declaration
+신고물건내역 - /declarationdetail
+신고유저내역 - /declarationdetail
+신고채팅내역 - /declarationdetail
+신고상세사유 - /declarationdetail
+
+/itemdetail
+프로필 - /user/profile or /brand/profile
+입찰기록 - /bidlist
+문의목록 - /qnalist
+채팅목록 - /chatlist
+
+/promotion
+신청받은프로모션목록 - /promotiondetail
+진행중인프로모션목록 - /promotiondetail
+프로모션신청서조회 - /promotiondetail
+프로모션등록 - /promotionupdate
+
+
+
+
+
