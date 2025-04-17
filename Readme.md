@@ -44,5 +44,4 @@
 	- JWT, hs256, OAuth 2.0, JPA   
 - [Springframework/Repository](DailyPatch/DailyPatch_25_03/25_03_05.md)   
 	- Entity, Repository   
-- [Flutter/Basic](DailyPatch/DailyPatch_25_03/25_03_07.md)   
-- 
+- [Flutter/Basic](DailyPatch/DailyPatch_25_03/25_03_07.md)  
